@@ -1,0 +1,12 @@
+@font-face{
+	font-family: sourcesanspro;/*Este nombre se lo doy yo para invocarlo en el programa*/
+	src:url(../fuentes/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+@font-face{
+	font-family: sourcesanspro-light;/*Este nombre se lo doy yo para invocarlo en el programa*/
+	src:url(../fuentes/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+@font-face{
+	font-family: SourceSansPro-SemiBold;/*Este nombre se lo doy yo para invocarlo en el programa*/
+	src:url(../fuentes/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}

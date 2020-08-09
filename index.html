@@ -1,0 +1,105 @@
+﻿<!DOCTYPE>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Exposicion de las obras de arte de Eduardo Jose Sthory Lanza">
+	<meta name="keywords" content="Baco, arte, sthory, color">
+	<link rel=StyleSheet type="text/css" href="css/estilos.css"/>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
+	<script>
+	    $(
+		    function(){
+		      $("#slideshow").slidesjs({width: 920,height: 260,start:1});
+		    }
+	    );
+  	</script>
+	<title>BacoSthory's Web</title>
+</head>
+<body>
+	<header> <!-- Todo el area de encabezado -->
+		<div id="subheader"><!-- solo el titulo y el menu del encabezado -->
+			<div id="logotipo"><p><a href="#">BacoSthory's</a></p></div>
+			<nav> <!-- Lista de navegacion del menu del encabezado --> 
+				<ul>
+					<li><a href="http://www.google.com">Inicio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="wrap"><!-- Todo el contenido de la pagina [sin el titulo o header] -->
+		<section id="main">
+			<section id="slideshow">
+					<div><a href="#"><img src="imagenes/slideshow/slide1.jpg"></a></div>
+					<div><a href="#"><img src="imagenes/slideshow/slide2.jpg"></a></div>
+			</section> <!-- Slideshow o Carrusel -->
+			<section id="banner-bienvenido"><!-- Banner -->
+				<article>
+					<hgroup><h3>Bienvenido a nuestro sitio web</h3></hgroup><!--titulo-->
+					<p class="articulo"><!-- cuerpo del articulo -->
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Curabitur luctus tellus ac augue ullamcorper, vel ullamcorper mauris posuere.</li>
+							<li>Proin scelerisque magna vitae risus rutrum cursus.</li>
+							<li>Mauris et eros molestie, lobortis justo sed, mollis sem.</li>
+							<li>Phasellus a purus non sem consectetur sagittis.</li>
+						</ul>
+					</p>
+				</article>
+			</section> 
+			<section id="contenido"><!-- Articulos-->
+				<article>
+					<hgroup><h2 class="titulo">Titulo del primer articulo</h2></hgroup>
+					<p class="fecha">02 Agosto 2020</p>
+					<img class="thumb" src="imagenes/thumb1.jpg" alt="thumb1 imagen" />
+					<p class="articulo">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br/><br/>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu adlitora.</p>
+				</article>
+				<article>
+					<hgroup><h2 class="titulo">Titulo del segundo articulo</h2></hgroup>
+					<p class="fecha">29 Agosto 2020</p>
+					<img class="thumb" src="imagenes/thumb2.jpg" alt="thumb2 imagen" />
+					<p class="articulo">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br/><br/>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu adlitora.</p>
+				</article>				
+			</section>
+			<aside><!-- Sidebar-->
+				<section class="widget">
+					<h3>Articulos relacionados</h3>
+					<ul>
+						<li><a href="#">Lorem ipsum photo sit amet.</a></li>
+						<li><a href="#">Curabitur luctus tellus.</a></li>
+						<li><a href="#">Proin scelerisque magna.</a></li>
+						<li><a href="#">Mauris et eros molestie.</a></li>
+						<li><a href="#">Phasellus a purus non sem.</a></li>						
+					</ul>
+				</section>
+				<section class="widget">
+					<h3>Articulos relacionados</h3>
+					<img class="thumb" src="imagenes/publicidad.jpg" alt="thumb2 imagen" />
+				</section>				
+			</aside> 
+			<section class="linea"><hr /></section>
+		</section>
+		<footer>
+			<section id="acerca-de">
+				<article>
+					<hgroup><h2 class="titulo">Acerca de nuestro sitio web</h2></hgroup>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+					</p>
+				</article>						
+			</section>
+			<section id="redes-s">
+				<div class="pinterest"><a href="www.gmail.com"></a></div>
+				<div class="twitter"><a href="#"></a></div>
+				<div class="blogger"><a href="#"></a></div>
+				<div class="youtube"><a href="#"></a></div>						
+			</section>			
+		</footer>
+		<div id="copyright"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel</p></div>
+	</section>
+</body>
+
